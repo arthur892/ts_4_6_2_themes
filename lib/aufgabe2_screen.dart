@@ -1,24 +1,19 @@
 import 'package:flutter/material.dart';
 
-class Aufgabe2 extends StatelessWidget {
-  const Aufgabe2({super.key});
+class Aufgabe2Screen extends StatefulWidget {
+  const Aufgabe2Screen({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold();
-  }
+  State<Aufgabe2Screen> createState() => _Aufgabe2ScreenState();
 }
 
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
-
-  @override
-  State<MyWidget> createState() => _MyWidgetState();
-}
-
-class _MyWidgetState extends State<MyWidget> {
+class _Aufgabe2ScreenState extends State<Aufgabe2Screen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container(
+      child: Text("data"),
+      height: 50,
+      width: 50,
+    );
   }
 }
